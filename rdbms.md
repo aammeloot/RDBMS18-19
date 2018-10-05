@@ -335,9 +335,31 @@ you@ygritte:~$ mysql -t -u student employees < test.sql
 
 ## Pre-holiday catch-up week
 
-# Week 4
+-->
+
+# Week 5
 
 ## Linux Commands
+
+## Solution to Week 4 14
+## Using JOIN
+```
+SELECT salary, first_name, last_name, birth_date, gender
+FROM salaries JOIN employees
+ON salaries.emp_no = employees.emp_no
+ORDER BY salary DESC
+LIMIT 1;
+```
+## Using a sub-query
+```
+SELECT first_name, last_name, birth_date, gender
+FROM employees
+WHERE emp_no = (
+    SELECT empl_no
+    FROM salaries
+    ORDER BY salary DESC
+    LIMIT 1);
+```
 
 [Linux commands reference](https://files.fosswire.com/2007/08/fwunixref.pdf)
 
@@ -351,9 +373,8 @@ you@ygritte:~$ mysql -t -u student employees < test.sql
 <br>18 . Create an alias for the pension column in Q5 called “Pension”.
 <br>19 . How much was Bernie paid in the month of October 1997 ( salary / 12 )?
 
--->
 
-# Week 4 - 5 Practical exercises
+# Week 4
 
 <br> Preamble . [SQL Tutorial](http://www.w3schools.com/sql/)
 
