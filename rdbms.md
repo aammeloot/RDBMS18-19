@@ -357,9 +357,9 @@ you@ygritte:~$ mysql -t -u student employees < test.sql
 
 <br> Preamble . [SQL Tutorial](http://www.w3schools.com/sql/)
 
-<br>1 . Using MySql on Ygritte interactively:
+<br>1 . Using MySql on your VM interactively:
 ```
-you@ygritte:~$ mysql -u student employees
+you@ygritte:~$ mysql -u username -p
 mysql> select * from employees limit 10;
 ```
 
