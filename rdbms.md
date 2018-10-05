@@ -308,7 +308,9 @@ you@ygritte:~$ mysql -t -u student employees < test.sql
 <br>3 . [Functions](http://www.w3schools.com/sql/sql_functions.asp)
 <br>4 . [Inner Join Alternative](https://gist.github.com/GedMullen/da443d8e6956046c02b2)
 
-## Exercises
+-->
+
+## Another batch of exercises
 
 <br>Create a "wk5.sql" file in your sqlexercies directory on Ygritte and write implement each of the following exercises using one SQL statement.
 
@@ -330,12 +332,6 @@ you@ygritte:~$ mysql -t -u student employees < test.sql
 <br>16 . Which department has the least number of females on 1.1.1990?
 <br>17 . Continue with solving the SQL challenges of your fellow students. 
 
-
-# Week 5
-
-## Pre-holiday catch-up week
-
--->
 
 # Week 5
 
@@ -381,6 +377,7 @@ WHERE emp_no = (
 <br>1 . Using MySql on your VM interactively:
 ```
 you@ygritte:~$ mysql -u username -p
+mysql> use employees;
 mysql> select * from employees limit 10;
 ```
 
