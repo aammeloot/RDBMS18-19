@@ -351,8 +351,9 @@ you@ygritte:~$ mysql -t -u student employees < test.sql
 <br>18 . Create an alias for the pension column in Q5 called “Pension”.
 <br>19 . How much was Bernie paid in the month of October 1997 ( salary / 12 )?
 
+-->
 
-# Week 3
+# Week 4 - 5 Practical exercises
 
 <br> Preamble . [SQL Tutorial](http://www.w3schools.com/sql/)
 
@@ -368,11 +369,10 @@ mysql> select * from employees limit 10;
 <br>7 . [Count](http://www.w3schools.com/sql/sql_func_count.asp)
 <br>8 . [And & Or](http://www.w3schools.com/sql/sql_and_or.asp)
 
--->
 
 ##Exercises
 
-Create a directory on Ygritte called "sqlexercises" and create a file in that directory called "wk3.sql". Write SQL in wk3.sql to output the information from the employees database detailed in the tasks below. Once you have successfully completed each of the tasks use [comments](http://dev.mysql.com/doc/refman/5.7/en/comments.html) to comment out the SQL commands you have completed before moving on to the next task (don't delete the code you have completed). 
+Create a directory on your Virtual Machine called "sqlexercises" and create a file in that directory called "wk3.sql". Write SQL in wk3.sql to output the information from the employees database detailed in the tasks below. Once you have successfully completed each of the tasks use [comments](http://dev.mysql.com/doc/refman/5.7/en/comments.html) to comment out the SQL commands you have completed before moving on to the next task (don't delete the code you have completed). 
 
 1 . A list of the first 10 female employees (use LIMIT 10).
 <br>2 . A list of female employees that have a last name of “Gils”
